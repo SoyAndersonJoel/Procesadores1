@@ -19,15 +19,11 @@ public class Main {
 //        integrante2
         Procesadores_Intel intel1 = new Procesadores_Intel();
         Procesadores_Intel intel2 = new Procesadores_Intel(14,2.5,"core 9",true);
-//        integrante3
-        Procesadores p1 = new Procesadores();
-        Procesadores_Moviles Pm1 = new Procesadores_Moviles();
 
-        //Crea un metodo Personalizado para Moviles Drawin
-
-        //Crea una variables de instancia para AMD
-
-        //Grupo  Alisson Muñoz Christian Márquez
+        //Darwin Cachimil integrante3
+        Procesadores_AMD amd1 = new Procesadores_AMD(9, 95.0, "Rysen 5",  "AM4", "60°C");
+        Procesadores_Intel intel01 = new Procesadores_Intel(10, 65.0, "Core 9", false);
+        Procesadores_Moviles moviles01 = new Procesadores_Moviles(4, 15.0, "Snapdragon", false);
 
     }
 }

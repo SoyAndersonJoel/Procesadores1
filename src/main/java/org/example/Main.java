@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
 //
         Procesadores_AMD AMD1 = new Procesadores_AMD();
-        Procesadores_AMD AMD2 = new Procesadores_AMD(50,20.0,"DU","HIDL","si");
+        Procesadores_AMD AMD2 = new Procesadores_AMD(50,20.0,"DU","HIDL","no");
+
         //Christian Márquez Integrante 1
         Procesadores_AMD AMD3 = new Procesadores_AMD(8, 95.0, "Rysen 9 5900x",  "AM4", "60°C");
         Procesadores_Intel Intel1 = new Procesadores_Intel(6, 65.0, "Core i5-11600K", true);
@@ -32,7 +33,7 @@ public class Main {
 
         //Crea un metodo Personalizado para Moviles Drawin
 
-        //Crea una variables de instancia para AMD
+        //Crea una variables de instancia para AMD Mateo Cardenas 
         Procesadores_AMD procesadorAMD = new Procesadores_AMD(8, 95.5, "Ryzen 7 5800X", "AM4", "45°C");
 
         // Acceder a las variables de instancia y métodos

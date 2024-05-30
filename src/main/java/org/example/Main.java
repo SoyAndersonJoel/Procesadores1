@@ -1,5 +1,4 @@
 package org.example;
-
 import procesadores.Procesadores;
 import procesadores.Procesadores_AMD;
 import procesadores.Procesadores_Intel;

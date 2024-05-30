@@ -2,7 +2,7 @@ package procesadores;
 
 public class Procesadore_Escritorio extends Procesadores{
     String Socket;
-
+//contructor vacio
     public Procesadore_Escritorio() {
     }
 

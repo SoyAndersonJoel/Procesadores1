@@ -23,6 +23,6 @@ public class Main {
 
         //Crea una variables de instancia para AMD
 
-        //Grupo 3 Alisson Muñoz, Christian Márquez
+        //Grupo 3 Alisson Muñoz Christian
     }
 }

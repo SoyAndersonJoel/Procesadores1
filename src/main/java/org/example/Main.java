@@ -5,6 +5,8 @@ import procesadores.*;
 public class Main {
     public static void main(String[] args) {
 //
+
+        //Integrante 1
         Procesadores_AMD AMD1 = new Procesadores_AMD();
         Procesadores_AMD AMD2 = new Procesadores_AMD(50,20.0,"DU","HIDL","no");
 
@@ -12,6 +14,8 @@ public class Main {
         Procesadores_AMD AMD3 = new Procesadores_AMD(8, 95.0, "Rysen 9 5900x",  "AM4", "60°C");
         Procesadores_Intel Intel1 = new Procesadores_Intel(6, 65.0, "Core i5-11600K", true);
         Procesadores_Moviles Moviles1 = new Procesadores_Moviles(8, 15.0, "Snapdragon 888", true);
+        Procesadores_Moviles Moviles2 = new Procesadores_Moviles(8, 5.0, "Apple A14 Bionic", true);
+        Procesadores_Moviles Moviles3 = new Procesadores_Moviles(6, 4.5, "Exynos 2100", true);
 
 
 //      integrante2

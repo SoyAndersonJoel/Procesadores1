@@ -1,9 +1,6 @@
 package org.example;
 
-import procesadores.Procesadores;
-import procesadores.Procesadores_AMD;
-import procesadores.Procesadores_Intel;
-import procesadores.Procesadores_Moviles;
+import procesadores.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,14 +13,33 @@ public class Main {
         Procesadores_Moviles Moviles1 = new Procesadores_Moviles(8, 15.0, "Snapdragon 888", true);
 
 
-//        integrante2
+//      integrante2
         Procesadores_Intel intel1 = new Procesadores_Intel();
         Procesadores_Intel intel2 = new Procesadores_Intel(14,2.5,"core 9",true);
+        //Alisson Muñoz integrante2
+        Procesadores_AMD AMD = new Procesadores_AMD(12, 150.0, "Ryzen 9 5900HX", "AM4", "70°C");
+        Procesadores_Intel Intel = new Procesadores_Intel(8, 3.2, "Core i7", true);
+        Procesadore_Escritorio esc = new Procesadore_Escritorio(8, 95.0, "Intel Core i7-11700K", "LGA 1200");
 
-        //Darwin Cachimil integrante4
-        Procesadores_AMD amd1 = new Procesadores_AMD(9, 95.0, "Rysen 5",  "AM4", "60°C");
-        Procesadores_Intel intel01 = new Procesadores_Intel(10, 65.0, "Core 9", false);
-        Procesadores_Moviles moviles01 = new Procesadores_Moviles(4, 15.0, "Snapdragon", false);
+//        integrante3
+        Procesadores p1 = new Procesadores();
+        Procesadores_Moviles Pm1 = new Procesadores_Moviles();
+
+        //Crea un metodo Personalizado para Moviles Drawin
+
+        //Crea una variables de instancia para AMD
+        Procesadores_AMD procesadorAMD = new Procesadores_AMD(8, 95.5, "Ryzen 7 5800X", "AM4", "45°C");
+
+        // Acceder a las variables de instancia y métodos
+        System.out.println("Nombre: " + procesadorAMD.getNombre());
+        System.out.println("Núcleos: " + procesadorAMD.getNucleos());
+        System.out.println("Consumo: " + procesadorAMD.getConsumo() + " W");
+        procesadorAMD.mostrarTemperatura();
+
+
+
+
+
 
     }
 }

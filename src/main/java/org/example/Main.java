@@ -37,6 +37,13 @@ public class Main {
         //Crea un metodo Personalizado para Moviles Drawin
 
         //Crea una variables de instancia para AMD
+        Procesadores_AMD procesadorAMD = new Procesadores_AMD(8, 95.5, "Ryzen 7 5800X", "AM4", "45°C");
+
+        // Acceder a las variables de instancia y métodos
+        System.out.println("Nombre: " + procesadorAMD.getNombre());
+        System.out.println("Núcleos: " + procesadorAMD.getNucleos());
+        System.out.println("Consumo: " + procesadorAMD.getConsumo() + " W");
+        procesadorAMD.mostrarTemperatura();
 
 
         //Grupo 3

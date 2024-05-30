@@ -21,8 +21,8 @@ public class Main {
 
         //Crea un metodo Personalizado para Moviles Drawin
 
+        //Crea una variables de instancia para AMD
 
-
-
+        //Grupo 3 Alisson Muñoz, Christian Márquez
     }
 }

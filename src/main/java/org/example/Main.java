@@ -13,15 +13,20 @@ public class Main {
         Procesadores_Moviles Moviles1 = new Procesadores_Moviles(8, 15.0, "Snapdragon 888", true);
 
 
-//      integrante2
-        Procesadores_Intel intel1 = new Procesadores_Intel();
-        Procesadores_Intel intel2 = new Procesadores_Intel(14,2.5,"core 9",true);
         //Alisson Muñoz integrante2
         Procesadores_AMD AMD = new Procesadores_AMD(12, 150.0, "Ryzen 9 5900HX", "AM4", "70°C");
         Procesadores_Intel Intel = new Procesadores_Intel(8, 3.2, "Core i7", true);
         Procesadore_Escritorio esc = new Procesadore_Escritorio(8, 95.0, "Intel Core i7-11700K", "LGA 1200");
 
-//        integrante3
+
+
+//      integrante3
+        Procesadores_Intel intel1 = new Procesadores_Intel();
+        Procesadores_Intel intel2 = new Procesadores_Intel(14,2.5,"core 9",true);
+
+
+
+//        integrante4
         Procesadores p1 = new Procesadores();
         Procesadores_Moviles Pm1 = new Procesadores_Moviles();
 
@@ -32,7 +37,7 @@ public class Main {
 
         //Crea un metodo Personalizado para Moviles Drawin
 
-        //Crea una variables de instancia para AMD
+        //Crea una variables de instancia para AMD Mateo Cardenas 
         Procesadores_AMD procesadorAMD = new Procesadores_AMD(8, 95.5, "Ryzen 7 5800X", "AM4", "45°C");
 
         // Acceder a las variables de instancia y métodos

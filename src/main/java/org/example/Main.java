@@ -21,7 +21,7 @@ public class Main {
 
         //Crea un metodo Personalizado para Moviles Drawin
 
-
+        //Crea una variables de instancia para AMD
 
 
     }

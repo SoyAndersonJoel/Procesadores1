@@ -5,6 +5,8 @@ public class Procesadores {
     double consumo;
     String nombre;
 
+
+    // constructor
     public Procesadores() {
     }
 

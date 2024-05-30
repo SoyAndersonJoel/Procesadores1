@@ -25,6 +25,11 @@ public class Main {
         Procesadores p1 = new Procesadores();
         Procesadores_Moviles Pm1 = new Procesadores_Moviles();
 
+        //Darwin Cachimil integrante 3
+        Procesadores_AMD amd01 = new Procesadores_AMD(14, 130.0, "Ryzen 5", "AM4", "60°C");
+        Procesadores_Intel intel01 = new Procesadores_Intel(8, 4.2, "Core 9", true);
+        Procesadore_Escritorio esct01 = new Procesadore_Escritorio(10, 100.0, "Intel Core 5", "1200");
+
         //Crea un metodo Personalizado para Moviles Drawin
 
         //Crea una variables de instancia para AMD

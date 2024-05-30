@@ -20,7 +20,7 @@ public class Main {
         Procesadores_Intel intel1 = new Procesadores_Intel();
         Procesadores_Intel intel2 = new Procesadores_Intel(14,2.5,"core 9",true);
 
-        //Darwin Cachimil integrante3
+        //Darwin Cachimil integrante4
         Procesadores_AMD amd1 = new Procesadores_AMD(9, 95.0, "Rysen 5",  "AM4", "60°C");
         Procesadores_Intel intel01 = new Procesadores_Intel(10, 65.0, "Core 9", false);
         Procesadores_Moviles moviles01 = new Procesadores_Moviles(4, 15.0, "Snapdragon", false);

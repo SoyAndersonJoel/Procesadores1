@@ -7,9 +7,13 @@ import procesadores.Procesadores_Moviles;
 
 public class Main {
     public static void main(String[] args) {
-//        integrante1
+//
         Procesadores_AMD AMD1 = new Procesadores_AMD();
         Procesadores_AMD AMD2 = new Procesadores_AMD(50,20.0,"DU","HIDL","si");
+        //Christian Márquez Integrante 1
+        Procesadores_AMD AMD3 = new Procesadores_AMD(8, 95.0, "Rysen 9 5900x",  "AM4", "60°C");
+        Procesadores_Intel Intel1 = new Procesadores_Intel(6, 65.0, "Core i5-11600K", true);
+        Procesadores_Moviles Moviles1 = new Procesadores_Moviles(8, 15.0, "Snapdragon 888", true);
 
 
 //        integrante2
@@ -23,6 +27,7 @@ public class Main {
 
         //Crea una variables de instancia para AMD
 
-        //Grupo 3 Alisson Muñoz, Christian Márquez
+        //Grupo  Alisson Muñoz Christian Márquez
+
     }
 }

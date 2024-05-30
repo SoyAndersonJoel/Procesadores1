@@ -18,7 +18,9 @@ public class Main {
 //        integrante3
         Procesadores p1 = new Procesadores();
         Procesadores_Moviles Pm1 = new Procesadores_Moviles();
-//        Anderson Vilatuña
+
+        //Crea un metodo Personalizado para Moviles Drawin
+
 
 
 

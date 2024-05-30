@@ -32,7 +32,7 @@ public class Main {
 
         //Crea un metodo Personalizado para Moviles Drawin
 
-        //Crea una variables de instancia para AMD
+        //Crea una variables de instancia para AMD Mateo Cardenas 
         Procesadores_AMD procesadorAMD = new Procesadores_AMD(8, 95.5, "Ryzen 7 5800X", "AM4", "45°C");
 
         // Acceder a las variables de instancia y métodos

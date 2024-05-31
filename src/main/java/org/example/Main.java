@@ -20,8 +20,13 @@ public class Main {
 
         //Aisson Muñoz INTEGRANTE 2
         Procesadores_AMD AMD = new Procesadores_AMD(12,150.0,"Ryzen 9 590HX","AM4","70°C");
+
         Procesadores_Intel Intel = new Procesadores_Intel(8, 3.5,"Core ii7", true);
         Procesadore_Escritorio esc = new Procesadore_Escritorio(8,95.0,"Inntel Core i7-11700K","LGA 1200");
+
+        Procesadores_Intel Intel = new Procesadores_Intel(8, 3.5,"Core i7", true);
+        Procesadore_Escritorio esc = new Procesadore_Escritorio(8,95.0,"Intel Core i7-11700K","LGA 1200");
+
         Procesadores_AMD amd1 = (new Procesadores_AMD(8, 65.0, "Ryzen 7 3700X", "AM4", "65°C"));
         Procesadores_AMD amd2 =(new Procesadores_AMD(6, 95.0, "Ryzen 5 3600", "AM4", "70°C"));
         Procesadores_AMD amd3 =(new Procesadores_AMD(12, 105.0, "Ryzen 9 3900X", "AM4", "75°C"));

@@ -5,18 +5,27 @@ import procesadores.*;
 public class Main {
     public static void main(String[] args) {
 //
+
+        //Integrante 1
         Procesadores_AMD AMD1 = new Procesadores_AMD();
-        Procesadores_AMD AMD2 = new Procesadores_AMD(50,20.0,"DU","HIDL","si");
+        Procesadores_AMD AMD2 = new Procesadores_AMD(50,20.0,"DU","HIDL","no");
+
         //Christian Márquez Integrante 1
         Procesadores_AMD AMD3 = new Procesadores_AMD(8, 95.0, "Rysen 9 5900x",  "AM4", "60°C");
         Procesadores_Intel Intel1 = new Procesadores_Intel(6, 65.0, "Core i5-11600K", true);
         Procesadores_Moviles Moviles1 = new Procesadores_Moviles(8, 15.0, "Snapdragon 888", true);
+        Procesadores_Moviles Moviles2 = new Procesadores_Moviles(8, 5.0, "Apple A14 Bionic", true);
+        Procesadores_Moviles Moviles3 = new Procesadores_Moviles(6, 4.5, "Exynos 2100", true);
 
 
-        //Alisson Muñoz integrante2
-        Procesadores_AMD AMD = new Procesadores_AMD(12, 150.0, "Ryzen 9 5900HX", "AM4", "70°C");
-        Procesadores_Intel Intel = new Procesadores_Intel(8, 3.2, "Core i7", true);
-        Procesadore_Escritorio esc = new Procesadore_Escritorio(8, 95.0, "Intel Core i7-11700K", "LGA 1200");
+        //Aisson Muñoz INTEGRANTE 2
+        Procesadores_AMD AMD = new Procesadores_AMD(12,150.0,"Ryzen 9 590HX","AM4","70°C");
+        Procesadores_Intel Intel = new Procesadores_Intel(8, 3.5,"Core i7", true);
+        Procesadore_Escritorio esc = new Procesadore_Escritorio(8,95.0,"Intel Core i7-11700K","LGA 1200");
+        Procesadores_AMD amd1 = (new Procesadores_AMD(8, 65.0, "Ryzen 7 3700X", "AM4", "65°C"));
+        Procesadores_AMD amd2 =(new Procesadores_AMD(6, 95.0, "Ryzen 5 3600", "AM4", "70°C"));
+        Procesadores_AMD amd3 =(new Procesadores_AMD(12, 105.0, "Ryzen 9 3900X", "AM4", "75°C"));
+
 
 
 
